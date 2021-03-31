@@ -1,0 +1,314 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.main_container {
+    max-width: 1140px;
+    margin: 0 auto;
+    /* font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif; */
+}
+
+.main_container::after {
+    clear: both;
+    display: table;
+    content: '';
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+
+
+/* header start now  */
+
+#header {
+    background-color: rgb(15, 129, 120);
+    padding: 1% 7%;
+    text-align: center;
+}
+
+.header_img a img {
+    border-radius: 50%;
+    width: 150px;
+    border: 5px solid rgb(49, 218, 195);
+    padding: 5px;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    display: block;
+}
+
+.nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    background-color: aqua;
+    transition: 0.3s;
+}
+
+.nav ul li a:hover {
+    background-color: gray;
+    color: white;
+    transform: scale(1.1);
+}
+
+
+/* header end now  */
+
+
+/* banner section start now */
+
+#banner-section {
+    background-image: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.contant {
+    padding: 170px 50px;
+    text-align: center;
+}
+
+.contant h2 {
+    font-size: 2.0rem;
+    width: 100%;
+    margin: 25px auto;
+    color: black;
+    background-color: yellow;
+    padding: 10px 15px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.contant p {
+    background-color: darkgreen;
+    color: white;
+    margin: 25px auto;
+    width: 250px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#btn {
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: rgba(23, 170, 43, 0.5);
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btn:hover {
+    background-color: rgba(23, 170, 43, 1);
+    transform: scale(1.2);
+}
+
+
+/* banner section start now */
+
+
+/* about section start now */
+
+.about_contant {
+    padding: 15px;
+    text-align: center;
+}
+
+.about_contant h2 {
+    font-size: 2.0rem;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.about_contant h2:before {
+    content: '';
+    width: 70px;
+    height: 20px;
+    border-bottom: 7px dotted rgb(94, 94, 94);
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about_contant p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* about section start now */
+
+
+/* menu section starts now */
+
+.menu-content {
+    text-align: center;
+    padding: 40px 20px;
+    transition: 0.5s;
+    margin-bottom: 30px;
+}
+
+.menu-content:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.menu-img img {
+    /* border-radius: 10px; */
+    border: 2px solid black;
+    padding: 2px;
+    display: block;
+}
+
+.desc {
+    background: gray;
+    padding: 10px 0px 20px 0px;
+}
+
+.desc h3 {
+    color: white;
+    background: green;
+    padding: 10px;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.desc p {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+/* menu section starts now */
+
+
+/* contact section starts now */
+
+#contact {
+    background-color: #595B83;
+}
+
+.google_maps {
+    padding: 25px;
+}
+
+.maps {
+    width: 100%;
+    height: 300px;
+}
+
+.my-contact {
+    padding: 20px 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+    border-left: 1px solid black;
+}
+
+.my-contact h3 {
+    padding: 15px;
+    font-size: 1.9rem;
+}
+
+.my-contact p {
+    line-height: 22px;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.my-contact p a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1.1px;
+}
+
+.my-contact strong {
+    margin-bottom: 3px;
+    display: block;
+    font-size: 20px;
+}
+
+
+/* contact section starts now */
+
+
+/* footer starts now */
+
+footer#footer {
+    background: #060930;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.f_dec span {
+    font-size: 15px;
+    font-family: 'Montserrat';
+    margin: 20px;
+    display: block;
+}
+
+.social-link a {
+    width: 30px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.social-link a .fab {
+    transition: 0.3s;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 10px;
+}
+
+.social-link a .fab:hover {
+    background-color: #8551c0;
+    transform: scale(1.1);
+}
+
+
+/* footer ends now */

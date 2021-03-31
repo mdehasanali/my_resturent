@@ -1,0 +1,119 @@
+.col-md-1 {
+    width: 8.33%;
+}
+
+.col-md-2 {
+    width: 16.66%;
+}
+
+.col-md-3 {
+    width: 25%;
+}
+
+.col-md-4 {
+    width: 33.33%;
+}
+
+.col-md-5 {
+    width: 41.66%;
+}
+
+.col-md-6 {
+    width: 50%;
+}
+
+.col-md-7 {
+    width: 58.33%;
+}
+
+.col-md-8 {
+    width: 66.66%;
+}
+
+.col-md-9 {
+    width: 75%;
+}
+
+.col-md-10 {
+    width: 83.33%;
+}
+
+.col-md-11 {
+    width: 91.66%;
+}
+
+.col-md-12 {
+    width: 100%;
+}
+
+
+/* header start now  */
+
+.header_img {
+    text-align: left;
+}
+
+.header_img a img {
+    width: 100px;
+}
+
+.nav ul {
+    text-align: right;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.nav ul li a {
+    display: inline-block;
+    font-size: 1.3rem;
+    margin: 5px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+}
+
+
+/* header ends now  */
+
+
+/* about section start now */
+
+.contant h2 {
+    font-size: 3.5rem;
+    width: 540px;
+    margin: 25px auto;
+    padding: 10px 15px;
+}
+
+.contant p {
+    font-size: 1.7rem;
+    width: 400px;
+}
+
+#btn {
+    padding: 10px 45px;
+    margin: 15px;
+    font-size: 20px;
+}
+
+
+/* about section start now */
+
+
+/* footer start now */
+
+.f_dec span {
+    margin: 10px;
+    text-align: left;
+}
+
+.social-link {
+    text-align: right;
+    margin-top: -10px;
+}
+
+
+/* footer start now */
